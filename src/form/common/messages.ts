@@ -549,7 +549,7 @@ export const formMessageDescriptors = {
     id: 'form.section.deceased.title'
   },
   ageOfDeceased: {
-    defaultMessage: 'Age of deceased',
+    defaultMessage: 'Age in years',
     description: 'Label for form field: Age of deceased',
     id: 'form.field.label.ageOfDeceased'
   },

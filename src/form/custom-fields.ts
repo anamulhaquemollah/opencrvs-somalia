@@ -100,6 +100,80 @@ export function getBirthAttendantID(conditionals:Conditional[]): SerializedFormF
 }
 
 
+export function getDeceasedPlaceOfBirthTextField(): SerializedFormField {
+  const fieldName: string = 'deceasedPlaceOfBirth'
+  const fieldId: string = `death.deceased.deceased-view-group.${fieldName}`
+ 
+
+  return {
+    name: fieldName,
+    customQuestionMappingId: fieldId,
+    custom: true,
+    required: false,
+    type: 'TEXT', // ANY FORM FIELD TYPE IS POSSIBLE. ADD ADDITIONAL PROPS AS REQUIRED.  REFER TO THE form/README.md FILE
+    label: {
+      id: 'form.customField.label.deceasedPlaceOfBirth',
+      description: 'A form field that asks for the deceased place of birth.',
+      defaultMessage: 'Place of Birth'
+    },
+    initialValue: '',
+    validator: [], // EDIT VALIDATORS AS YOU SEE FIT
+    mapping: getCustomFieldMapping(fieldId), // ALL CUSTOM FIELDS MUST USE THIS MAPPING FUNCTION
+    conditionals:[], // EDIT CONDITIONALS AS YOU SEE FIT
+    maxLength: 250
+  }
+}
+
+export function getDeceasedBirthRegistrationNo(): SerializedFormField {
+  const fieldName: string = 'deceasedBirthRegistrationNo'
+  const fieldId: string = `death.deceased.deceased-view-group.${fieldName}`
+ 
+
+  return {
+    name: fieldName,
+    customQuestionMappingId: fieldId,
+    custom: true,
+    required: false,
+    type: 'TEXT', // ANY FORM FIELD TYPE IS POSSIBLE. ADD ADDITIONAL PROPS AS REQUIRED.  REFER TO THE form/README.md FILE
+    label: {
+      id: 'form.customField.label.deceasedBirthRegistrationNo',
+      description: 'A form field that asks for the deceased birth registration number.',
+      defaultMessage: 'Birth Registration Number'
+    },
+    initialValue: '',
+    validator: [], // EDIT VALIDATORS AS YOU SEE FIT
+    mapping: getCustomFieldMapping(fieldId), // ALL CUSTOM FIELDS MUST USE THIS MAPPING FUNCTION
+    conditionals:[], // EDIT CONDITIONALS AS YOU SEE FIT
+    maxLength: 20
+  }
+}
+
+export function getDeceasedNationalID(): SerializedFormField {
+  const fieldName: string = 'deceasedNationalID'
+  const fieldId: string = `death.deceased.deceased-view-group.${fieldName}`
+ 
+
+  return {
+    name: fieldName,
+    customQuestionMappingId: fieldId,
+    custom: true,
+    required: false,
+    type: 'TEXT', // ANY FORM FIELD TYPE IS POSSIBLE. ADD ADDITIONAL PROPS AS REQUIRED.  REFER TO THE form/README.md FILE
+    label: {
+      id: 'form.customField.label.deceasedNationalID',
+      description: 'A form field that asks for the deceased national id.',
+      defaultMessage: 'National ID'
+    },
+    initialValue: '',
+    validator: [], // EDIT VALIDATORS AS YOU SEE FIT
+    mapping: getCustomFieldMapping(fieldId), // ALL CUSTOM FIELDS MUST USE THIS MAPPING FUNCTION
+    conditionals:[], // EDIT CONDITIONALS AS YOU SEE FIT
+    maxLength: 20
+  }
+}
+
+
+
 export function getReasonForLateRegistration(
   event: string
 ): SerializedFormField {

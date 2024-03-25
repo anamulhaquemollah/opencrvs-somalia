@@ -15,7 +15,8 @@ import {
   getMaritalStatus,
   registrationEmail,
   registrationPhone,
-  divider
+  divider,
+  getOccupation
   // getOccupation
 } from '../common/common-optional-fields'
 import {
@@ -75,10 +76,12 @@ import {
 import { certificateHandlebars } from './certficate-handlebars'
 import { getCommonSectionMapping } from '@countryconfig/utils/mapping/field-mapping-utils'
 import { getNumberOfDependants } from '@countryconfig/form/death/custom-fields'
-import { getIDNumberFields, getIDType } from '@countryconfig/form/custom-fields'
+import {   getIDNumberFields, getIDType,  } from '@countryconfig/form/custom-fields'
 import { getSectionMapping } from '@countryconfig/utils/mapping/section/death/mapping-utils'
 //import { getSectionMapping } from '@countryconfig/utils/mapping/section/death/mapping-utils'
-import { getReasonForLateRegistration } from '../custom-fields'
+import { getReasonForLateRegistration, getDeceasedPlaceOfBirthTextField,getDeceasedBirthRegistrationNo,getDeceasedNationalID } from '../custom-fields'
+import { get } from 'lodash'
+
 
 // import { createCustomFieldExample } from '../custom-fields'
 
@@ -97,6 +100,7 @@ import { getReasonForLateRegistration } from '../custom-fields'
 // OPTIONAL FIELDS CAN BE COMMENTED OUT OR REMOVED IF NOT REQUIRED
 
 // DUPLICATE & FOLLOW THE INSTRUCTIONS IN THE createCustomFieldExample FUNCTION WHEN REQUIRED FOR ADDING NEW CUSTOM FIELDS
+
 
 export const deathForm = {
   sections: [
@@ -202,11 +206,12 @@ export const deathForm = {
               ageOfDeceasedConditionals,
               certificateHandlebars.ageOfDeceasedInYears
             ),
+            getDeceasedPlaceOfBirthTextField(),
+            getDeceasedBirthRegistrationNo(),
+            getDeceasedNationalID(), 
             getNationality(certificateHandlebars.deceasedNationality, []),
-            getIDType('death', 'deceased', [], true),
-            ...getIDNumberFields('deceased', [], true),
             getMaritalStatus(certificateHandlebars.deceasedMaritalStatus, []),
-            getNumberOfDependants()
+            getOccupation(certificateHandlebars.deceasedOccupation, []),
           ],
           previewGroups: [deceasedNameInEnglish]
         }

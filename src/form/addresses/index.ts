@@ -150,9 +150,10 @@ export const defaultAddressConfiguration: IAddressConfiguration[] = [
     precedingFieldId: 'death.deathEvent.death-event-details.deathDescription',
     configurations: [{ config: EventLocationAddressCases.PLACE_OF_DEATH }]
   },
+  
   {
     // DECEASED ADDRESS FIELDS
-    precedingFieldId: 'death.deceased.deceased-view-group.numberOfDependants',
+    precedingFieldId: 'death.deceased.deceased-view-group.nationality',
     configurations: [
       {
         config: AddressSubsections.PRIMARY_ADDRESS_SUBSECTION,

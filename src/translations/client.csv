@@ -884,6 +884,9 @@ form.customField.label.reasonForLateRegistrationBirth,,Reason for delayed regist
 form.customField.label.reasonForLateRegistrationDeath,,Reason for late registration,Raison de l'inscription tardive
 form.customField.label.birthAttendantFullName,,Birth attendant full name,,Magaca Umulisada oo dhameystiran
 form.customField.label.birthAttendantID,,Birth attendant ID,,Aqoonsiga Umulisada
+form.customField.label.deceasedPlaceOfBirth,,Place of birth,Goobta Dhalashada
+form.customField.label.deceasedNationalID,,National ID,Aqoonsiga Qaranka 
+form.customField.label.deceasedBirthRegistrationNo,,Birth Registration Number,Lambarka Diiwaangalinta Dhalashada
 form.field.SearchField.changeButtonLabel,,"{fieldName, select, registrationOffice {Change assigned office} other {Change health institute}}","{fieldName, select, registrationOffice {Bureau d'enregistrement assigné} autre {Instituts de santé}}"
 form.field.SearchField.modalTitle,,"{fieldName, select, registrationOffice {Assigned registration office} other {Health institutions}}","{fieldName, select, registrationOffice {Bureau d'enregistrement assigné} autre {Instituts de santé}}"
 form.field.SearchField.officeLocationId,,Id: {locationId},Id : {locationId}
@@ -899,7 +902,7 @@ form.field.label.addressLine2,,Area / Ward / Mouja / Village,Zone / Quartier / M
 form.field.label.addressLine2UrbanOption,,Street,Rue / Numéro de parcelle
 form.field.label.addressLine3,,Union / Municipality / Cantonment,Union / Municipalité / Cantonment
 form.field.label.ageOfBride,,Age of bride,Âge de la mariée
-form.field.label.ageOfDeceased,,Age of deceased,âge du défunt
+form.field.label.ageOfDeceased,,Age in years,âge du défunt
 form.field.label.ageOfFather,,Age of father,Âge du père
 form.field.label.ageOfGroom,,Age of groom,Âge du marié
 form.field.label.ageOfInformant,,Age in years,Âge de l'informateur,Da'da
@@ -1143,7 +1146,7 @@ form.field.label.mannerOfDeathHomicide,,Homicide,Homicide
 form.field.label.mannerOfDeathNatural,,Natural causes,Cause naturelle
 form.field.label.mannerOfDeathSuicide,,Suicide,Suicide
 form.field.label.mannerOfDeathUndetermined,,Manner undetermined,Manière indéterminée
-form.field.label.maritalStatus,,Marital status,Statut matrimonial
+form.field.label.maritalStatus,,Marital status,Statut matrimonial,Xaalada Guurka
 form.field.label.maritalStatusDivorced,,Divorced,Divorcé
 form.field.label.maritalStatusMarried,,Married,Marié(e)
 form.field.label.maritalStatusNotStated,,Not stated,Non déclaré
@@ -1166,7 +1169,7 @@ form.field.label.mothersDetailsExist,,Mother's details unavailable,Pas d'informa
 form.field.label.multipleBirth,,No. of previous births,Nombre de naissances antérieures,Tirada ay horey u dhashay
 form.field.label.name,,Name,Nom
 form.field.label.nationality,,Nationality,Nationalité,Jinsiyadda
-form.field.label.occupation,,Occupation,Profession
+form.field.label.occupation,,Occupation,Profession,Shaqo
 form.field.label.optionalLabel,,Optional,Facultatif
 form.field.label.otherAddress,,Other address,Autre adresse
 form.field.label.otherBirthSupportingDocuments,,Other,Autre

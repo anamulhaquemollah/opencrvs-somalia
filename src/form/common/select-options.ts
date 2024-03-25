@@ -354,14 +354,6 @@ export const maritalStatusOptions: ISelectOption[] = [
     }
   },
   {
-    value: 'SEPARATED',
-    label: {
-      id: 'form.field.label.maritalStatusSeparated',
-      defaultMessage: 'Separated',
-      description: 'Option for form field: Marital status'
-    }
-  },
-  {
     value: 'NOT_STATED',
     label: {
       defaultMessage: 'Not stated',
