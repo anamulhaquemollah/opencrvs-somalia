@@ -237,9 +237,9 @@ export const deathForm = {
             ),
             getReasonForLateRegistration('death'),
             getMannerOfDeath,
-            getCauseOfDeath,
-            getCauseOfDeathMethod,
-            getDeathDescription
+            // getCauseOfDeath,
+            // getCauseOfDeathMethod,
+            // getDeathDescription
             // PLACE OF DEATH FIELDS WILL RENDER HERE
           ]
         }

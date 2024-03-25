@@ -61,7 +61,7 @@ export const getMannerOfDeath: SerializedFormField = {
   name: 'mannerOfDeath',
   type: 'SELECT_WITH_OPTIONS',
   label: formMessageDescriptors.manner,
-  required: false,
+  required: true,
   initialValue: '',
   validator: [],
   placeholder: formMessageDescriptors.formSelectPlaceholder,

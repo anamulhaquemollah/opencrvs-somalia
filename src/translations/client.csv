@@ -1140,12 +1140,12 @@ form.field.label.acquiredChildCourtDocument,,Acquired Child Court Document,
 form.field.label.locationLevel3,Label for locationLevel3,Location Level 3,Emplacement Niveau 3
 form.field.label.locationLevel4,Label for locationLevel4,Location Level 4,Emplacement Niveau 4
 form.field.label.locationLevel5,Label for locationLevel5,Location Level 5,Emplacement Niveau 5
-form.field.label.mannerOfDeath,,Manner of death,Mode de décès
+form.field.label.mannerOfDeath,,Nature of death,Mode de décès,Qaabka Dhimashada
 form.field.label.mannerOfDeathAccident,,Accident,Accident
 form.field.label.mannerOfDeathHomicide,,Homicide,Homicide
 form.field.label.mannerOfDeathNatural,,Natural causes,Cause naturelle
 form.field.label.mannerOfDeathSuicide,,Suicide,Suicide
-form.field.label.mannerOfDeathUndetermined,,Manner undetermined,Manière indéterminée
+form.field.label.mannerOfDeathUndetermined,,Undetermined,Manière indéterminée
 form.field.label.maritalStatus,,Marital status,Statut matrimonial,Xaalada Guurka
 form.field.label.maritalStatusDivorced,,Divorced,Divorcé
 form.field.label.maritalStatusMarried,,Married,Marié(e)
@@ -1182,7 +1182,7 @@ form.field.label.physician,,Physician,Médecin
 form.field.label.placeOfResidence,,Place of Residence,,Deggan
 form.field.label.placeOfBirth,,Location,Lieu
 form.field.label.placeOfBirthPreview,,Place of birth,Lieu de l'accouchement,Goobta Dhalashada
-form.field.label.placeOfDeath,,Place of death,Où le décès s'est-il produit ?
+form.field.label.placeOfDeath,,Place of death,Où le décès s'est-il produit ?,Goobta Dhimashada
 form.field.label.placeOfDeathOther,,Different Address,Adresse différente
 form.field.label.placeOfDeathSameAsCurrent,,Current address of the deceased,Adresse actuelle du défunt
 form.field.label.placeOfDeathSameAsPermanent,,Permanent address of the deceased,Adresse permanente du défunt
@@ -1303,7 +1303,7 @@ form.section.causeOfDeath.title,,What is the medically certified cause of death?
 form.section.causeOfDeathNotice,,A Medically Certified Cause of Death is not mandatory to submit the declaration. This can be added at a later date.,Une cause de décès médicalement certifiée n'est pas obligatoire pour soumettre la déclaration. Elle peut être ajoutée à une date ultérieure.
 form.section.child.name,,Child,Enfant
 form.section.child.title,,Child's details,Détails de l'enfant
-form.section.deathEvent.date,,Date of death,Date du décès
+form.section.deathEvent.date,,Date of death,Date du décès,Taariikhada Dhimashada
 form.section.deathEvent.name,,Death event details,Détails de l'événement de décès
 form.section.deathEvent.title,,Event details,Les détails de la mort?
 form.section.deceased.father.name,,What is the deceased's father name?,Quel est le nom du père de la personne décédée ?

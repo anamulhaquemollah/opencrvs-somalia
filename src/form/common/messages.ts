@@ -579,7 +579,7 @@ export const formMessageDescriptors = {
     id: 'form.section.deathEvent.date'
   },
   manner: {
-    defaultMessage: 'Manner of death',
+    defaultMessage: 'Nature of death',
     description: 'Label for form field: Manner of death',
     id: 'form.field.label.mannerOfDeath'
   },
