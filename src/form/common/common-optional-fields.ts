@@ -114,7 +114,7 @@ export const registrationPhone: SerializedFormField = {
   name: 'registrationPhone',
   type: 'TEL',
   label: formMessageDescriptors.phoneNumber,
-  required: false,
+  required: true,
   initialValue: '',
   validator: [
     {

@@ -645,7 +645,7 @@ export const formMessageDescriptors = {
     id: 'form.field.label.placeOfDeath'
   },
   placeOfDeathSameAsPrimary: {
-    defaultMessage: "Deceased's usual place of residence",
+    defaultMessage: "Deceased's residence",
     description:
       'Option for place of occurrence of death same as deceased primary address  ',
     id: 'form.field.label.placeOfDeathSameAsPrimary'
@@ -677,7 +677,7 @@ export const formMessageDescriptors = {
     id: 'form.field.label.deceasedIDProof'
   },
   deceasedDeathProof: {
-    defaultMessage: 'Proof of death of deceased',
+    defaultMessage: 'Proof of death',
     description: 'Option for radio group field: Type of Document To Upload',
     id: 'form.field.label.deceasedDeathProof'
   },
@@ -702,7 +702,7 @@ export const formMessageDescriptors = {
     id: 'form.field.label.docTypeCoronersReport'
   },
   docTypeCopyOfBurialReceipt: {
-    defaultMessage: 'Certified copy of burial receipt',
+    defaultMessage: 'Burial permit',
     description: 'Label for select option Certified Copy of Burial Receipt',
     id: 'form.field.label.docTypeCopyOfBurialReceipt'
   },

@@ -887,6 +887,7 @@ form.customField.label.birthAttendantID,,Birth attendant ID,,Aqoonsiga Umulisada
 form.customField.label.deceasedPlaceOfBirth,,Place of birth,Goobta Dhalashada
 form.customField.label.deceasedNationalID,,National ID,Aqoonsiga Qaranka 
 form.customField.label.deceasedBirthRegistrationNo,,Birth Registration Number,Lambarka Diiwaangalinta Dhalashada
+form.customField.label.timeOfDeath,,Time of death,,Waqtiga Dhimashada
 form.field.SearchField.changeButtonLabel,,"{fieldName, select, registrationOffice {Change assigned office} other {Change health institute}}","{fieldName, select, registrationOffice {Bureau d'enregistrement assigné} autre {Instituts de santé}}"
 form.field.SearchField.modalTitle,,"{fieldName, select, registrationOffice {Assigned registration office} other {Health institutions}}","{fieldName, select, registrationOffice {Bureau d'enregistrement assigné} autre {Instituts de santé}}"
 form.field.SearchField.officeLocationId,,Id: {locationId},Id : {locationId}
@@ -971,14 +972,14 @@ form.field.label.deathDate,,"Enter the date as: day, month, year e.g. 24 10 2020
 form.field.label.deathDescription,,Description,Description
 form.field.label.deathPlace,,Place of Occurrence of Death,Lieu de survenance du décès
 form.field.label.deceasedCurAddSamePerm,,Is deceased's current address the same as their permanent address?,L'adresse actuelle du défunt est-elle la même que son adresse permanente ?
-form.field.label.deceasedDeathProof,,Proof of death of deceased,Preuve du décès du défunt
+form.field.label.deceasedDeathProof,,Proof of death,Preuve du décès du défunt,Caddeyn Dhimasho
 form.field.label.deceasedDoBProof,,Proof of date of birth of deceased,Preuve de la date de naissance de la personne décédée
 form.field.label.deceasedDocumentParagraph,,The following documents are required,"Pour l'enregistrement d'un décès, les documents suivants sont requis :"
 form.field.label.deceasedFamilyName,,Last Name(s) in default character set other than English,Nom(s) de famille dans un jeu de caractères par défaut autre que l'anglais
 form.field.label.deceasedFathersFamilyNameEng,,Last name,Nom
 form.field.label.deceasedFathersGivenNamesEng,,First name(s),Prénom
 form.field.label.deceasedGivenNames,,First Name(s) in default character set other than English,Prénom(s) dans un jeu de caractères par défaut autre que l'anglais
-form.field.label.deceasedIDProof,,Proof of deceased's ID,Preuve de l'identité de la personne décédée
+form.field.label.deceasedIDProof,,Proof of deceased's ID,Preuve de l'identité de la personne décédée,Aqoonsiga Dhintaha
 form.field.label.deceasedIdType,,Existing ID,Pièce d'identité existante
 form.field.label.deceasedMothersFamilyNameEng,,Last name,Nom
 form.field.label.deceasedMothersGivenNamesEng,,First name(s),Prenom
@@ -1008,7 +1009,7 @@ form.field.label.district,Label for District,District,District
 form.field.label.docTypeBirthCert,,Birth certificate,Certificat de la naissance
 form.field.label.docTypeChildAgeProof,,Proof of child's age,Preuve de l'âge de l'enfant
 form.field.label.docTypeChildBirthProof,,Notification of birth,Notification de la naissance
-form.field.label.docTypeCopyOfBurialReceipt,,Certified copy of burial receipt,Copie certifiée du reçu d'enterrement
+form.field.label.docTypeCopyOfBurialReceipt,,Burial permit,Copie certifiée du reçu d'enterrement,
 form.field.label.docTypeCoronersReport,,Coroner's report,Rapport du médecin légiste
 form.field.label.docTypeDeathCertificate,,Attested certificate of death,Certificat de décès attesté
 form.field.label.docTypeDoctorCertificate,,Doctor certificate,Certificat médical
@@ -1186,7 +1187,7 @@ form.field.label.placeOfDeath,,Place of death,Où le décès s'est-il produit ?,
 form.field.label.placeOfDeathOther,,Different Address,Adresse différente
 form.field.label.placeOfDeathSameAsCurrent,,Current address of the deceased,Adresse actuelle du défunt
 form.field.label.placeOfDeathSameAsPermanent,,Permanent address of the deceased,Adresse permanente du défunt
-form.field.label.placeOfDeathSameAsPrimary,,Deceased's usual place of residence,Lieu de résidence habituel du défunt
+form.field.label.placeOfDeathSameAsPrimary,,Deceased's residence,Lieu de résidence habituel du défunt
 form.field.label.placeOfDeathType,,Type of Place,Type de lieu
 form.field.label.placeOfMarriage,,Place of marriage,Lieu du mariage
 form.field.label.polygamy,,Polygamous,Polygame

@@ -133,7 +133,7 @@ export const otherInformantType = (event: Event) =>
     conditionals: [
       {
         action: 'hide',
-        expression: 'values.informantType !== "OTHER"'
+        expression: '(values.informantType !== "OTHER") '
       }
     ],
     mapping: getFieldMapping('otherInformantType')

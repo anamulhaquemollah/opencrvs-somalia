@@ -76,10 +76,10 @@ import {
 import { certificateHandlebars } from './certficate-handlebars'
 import { getCommonSectionMapping } from '@countryconfig/utils/mapping/field-mapping-utils'
 import { getNumberOfDependants } from '@countryconfig/form/death/custom-fields'
-import {   getIDNumberFields, getIDType,  } from '@countryconfig/form/custom-fields'
+import {   getIDNumberFields, getIDType  } from '@countryconfig/form/custom-fields'
 import { getSectionMapping } from '@countryconfig/utils/mapping/section/death/mapping-utils'
 //import { getSectionMapping } from '@countryconfig/utils/mapping/section/death/mapping-utils'
-import { getReasonForLateRegistration, getDeceasedPlaceOfBirthTextField,getDeceasedBirthRegistrationNo,getDeceasedNationalID } from '../custom-fields'
+import { getReasonForLateRegistration, getDeceasedPlaceOfBirthTextField,getDeceasedBirthRegistrationNo,getDeceasedNationalID, getTimeOfDeath } from '../custom-fields'
 import { get } from 'lodash'
 
 
@@ -208,7 +208,7 @@ export const deathForm = {
             ),
             getDeceasedPlaceOfBirthTextField(),
             getDeceasedBirthRegistrationNo(),
-            getDeceasedNationalID(), 
+            getDeceasedNationalID([]), 
             getNationality(certificateHandlebars.deceasedNationality, []),
             getMaritalStatus(certificateHandlebars.deceasedMaritalStatus, []),
             getOccupation(certificateHandlebars.deceasedOccupation, []),
@@ -235,7 +235,8 @@ export const deathForm = {
                 }
               ]
             ),
-            getReasonForLateRegistration('death'),
+            getTimeOfDeath(), 
+            // getReasonForLateRegistration('death'),
             getMannerOfDeath,
             // getCauseOfDeath,
             // getCauseOfDeathMethod,

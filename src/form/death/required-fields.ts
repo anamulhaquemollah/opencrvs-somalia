@@ -42,7 +42,7 @@ export const getDeathDate = (
 
 export const deathInformantType: SerializedFormField = {
   name: 'informantType',
-  type: 'SELECT_WITH_OPTIONS',
+  type: 'RADIO_GROUP',
   label: informantMessageDescriptors.birthInformantTitle,
   required: true,
   previewGroup: 'contactPointGroup',

@@ -148,7 +148,31 @@ export function getDeceasedBirthRegistrationNo(): SerializedFormField {
   }
 }
 
-export function getDeceasedNationalID(): SerializedFormField {
+export function getTimeOfDeath(): SerializedFormField {
+  const fieldName: string = 'timeOfDeath'
+  const fieldId: string = `death.deathEvent.death-event-details.${fieldName}`
+ 
+
+  return {
+    name: fieldName,
+    customQuestionMappingId: fieldId,
+    custom: true,
+    required: true,
+    type: 'TIME', // ANY FORM FIELD TYPE IS POSSIBLE. ADD ADDITIONAL PROPS AS REQUIRED.  REFER TO THE form/README.md FILE
+    label: {
+      id: 'form.customField.label.timeOfDeath',
+      description: 'A form field that asks for the deceased time of death.',
+      defaultMessage: 'Time of death'
+    },
+    initialValue: '',
+    validator: [], // EDIT VALIDATORS AS YOU SEE FIT
+    mapping: getCustomFieldMapping(fieldId), // ALL CUSTOM FIELDS MUST USE THIS MAPPING FUNCTION
+    conditionals:[], // EDIT CONDITIONALS AS YOU SEE FIT
+    
+  }
+}
+
+export function getDeceasedNationalID(conditionals: Conditional[]): SerializedFormField {
   const fieldName: string = 'deceasedNationalID'
   const fieldId: string = `death.deceased.deceased-view-group.${fieldName}`
  
