@@ -1,18 +1,101 @@
 id,name,partOf,locationType
-2OKicPQMNI,HQ Office,Location/BxrIbNW7f3K,CRVS_OFFICE
-JEhYJ82xRI,Isamba District Office,Location/ntoX1PkiWri,CRVS_OFFICE
-JWMRGwDBXK,Ibombo District Office,Location/oEBf29y8JP8,CRVS_OFFICE
-HKASqwkASD,Itambo District Office,Location/QTtxiWj8ONP,CRVS_OFFICE
-eaBXhNiLMp,Ezhi District Office,Location/ydyJb1RAy4U,CRVS_OFFICE
-okQp4uKCz0,Ilanga District Office,Location/HPGiE9Jjh2r,CRVS_OFFICE
-R5n2eHaSpB,Irundu District Office,Location/SvFNQpplnch,CRVS_OFFICE
-GzanivmNaP,Zobwe District Office,Location/Oapn6R4rt3D,CRVS_OFFICE
-2stAtvOCwl,Afue District Office,Location/nO68NTtcdw2,CRVS_OFFICE
-p9TC08l373,Embe District Office,Location/BxrIbNW7f3K,CRVS_OFFICE
-Hal1YwlBw7,Ienge District Office,Location/NLjvK1QsrN3,CRVS_OFFICE
-OgMqVlKHoN,Funabuli District Office,Location/idR0pJWLqcR,CRVS_OFFICE
-FHTLilSEgD,Pili District Office,Location/FuvOOwvBw0p,CRVS_OFFICE
-jMEPmtRKQ9,Ama District Office,Location/SQT8xjbvWwf,CRVS_OFFICE
-hfFdA2JI3T,Nsali District Office,Location/hywxVKv48Xp,CRVS_OFFICE
-mNCAv7oKj8,Soka District Office,Location/jCJxK8sFH40,CRVS_OFFICE
-H0EaOnzz0a,Chibiya District Office,Location/R22tRIhdm5Y,CRVS_OFFICE
+SO_CRVS_OFFICE_01,BRA CR Office,Location/SO1101,CRVS_OFFICE
+SO_CRVS_OFFICE_02,GM CR Office,Location/SO1205,CRVS_OFFICE
+SO_CRVS_OFFICE_03,HSH CR Office,Location/SO1307,CRVS_OFFICE
+SO_CRVS_OFFICE_04,JBL CR Office,Location/SO1411,CRVS_OFFICE
+SO_CRVS_OFFICE_05,KGS CR Office,Location/SO1603,CRVS_OFFICE
+SO_CRVS_OFFICE_06,PL CR Offce,Location/SO1508,CRVS_OFFICE
+SO_CRVS_OFFICE_07,SLD CR Office,Location/SO1706,CRVS_OFFICE
+SO_CRVS_OFFICE_08,SSC CR Office,Location/SO1802,CRVS_OFFICE
+SO_CRVS_OFFICE_09,CRD Office,Location/SO1113,CRVS_OFFICE
+SO_CRVS_OFFICE_10,Abdiaziz Civil Registration Office,Location/SO1101,CRVS_OFFICE
+SO_CRVS_OFFICE_11,Bondhere Civil Registration Office,Location/SO1102,CRVS_OFFICE
+SO_CRVS_OFFICE_12,Deynile Civil Registration Office,Location/SO1103,CRVS_OFFICE
+SO_CRVS_OFFICE_13,Dharkenley Civil Registration Office,Location/SO1104,CRVS_OFFICE
+SO_CRVS_OFFICE_14,Heliwaa Civil Registration Office,Location/SO1105,CRVS_OFFICE
+SO_CRVS_OFFICE_15,Hodan Civil Registration Office,Location/SO1106,CRVS_OFFICE
+SO_CRVS_OFFICE_16,Howlwadag Civil Registration Office,Location/SO1107,CRVS_OFFICE
+SO_CRVS_OFFICE_17,Karan Civil Registration Office,Location/SO1108,CRVS_OFFICE
+SO_CRVS_OFFICE_18,Kaxda Civil Registration Office,Location/SO1109,CRVS_OFFICE
+SO_CRVS_OFFICE_19,Shibis Civil Registration Office,Location/SO1110,CRVS_OFFICE
+SO_CRVS_OFFICE_20,Shingani Civil Registration Office,Location/SO1111,CRVS_OFFICE
+SO_CRVS_OFFICE_21,Waberi Civil Registration Office,Location/SO1112,CRVS_OFFICE
+SO_CRVS_OFFICE_22,Wadajir Civil Registration Office,Location/SO1113,CRVS_OFFICE
+SO_CRVS_OFFICE_23,Wartanabadda Civil Registration Office,Location/SO1114,CRVS_OFFICE
+SO_CRVS_OFFICE_24,Xamarjajab Civil Registration Office,Location/SO1115,CRVS_OFFICE
+SO_CRVS_OFFICE_25,Xamarweyne Civil Registration Office,Location/SO1116,CRVS_OFFICE
+SO_CRVS_OFFICE_26,Yaqshid Civil Registration Office,Location/SO1117,CRVS_OFFICE
+SO_CRVS_OFFICE_27,Abudwaaq Civil Registration Office,Location/SO1201,CRVS_OFFICE
+SO_CRVS_OFFICE_28,Adaado Civil Registration Office,Location/SO1202,CRVS_OFFICE
+SO_CRVS_OFFICE_29,El Buur Civil Registration Office,Location/SO1203,CRVS_OFFICE
+SO_CRVS_OFFICE_30,El Dheer Civil Registration Office,Location/SO1204,CRVS_OFFICE
+SO_CRVS_OFFICE_31,Dhusamarreb Civil Registration Office,Location/SO1205,CRVS_OFFICE
+SO_CRVS_OFFICE_32,Galkacyo Civil Registration Office,Location/SO1206,CRVS_OFFICE
+SO_CRVS_OFFICE_33,Hobyo Civil Registration Office,Location/SO1207,CRVS_OFFICE
+SO_CRVS_OFFICE_34,Hrardhere Civil Registration Office,Location/SO1208,CRVS_OFFICE
+SO_CRVS_OFFICE_35,Adan Yabaal Civil Registration Office,Location/SO1301,CRVS_OFFICE
+SO_CRVS_OFFICE_36,Balcad Civil Registration Office,Location/SO1302,CRVS_OFFICE
+SO_CRVS_OFFICE_37,Belet Weyne Civil Registration Office,Location/SO1303,CRVS_OFFICE
+SO_CRVS_OFFICE_38,Bulo Burto Civil Registration Office,Location/SO1304,CRVS_OFFICE
+SO_CRVS_OFFICE_39,Cadale Civil Registration Office,Location/SO1305,CRVS_OFFICE
+SO_CRVS_OFFICE_40,Jalalaqsi Civil Registration Office,Location/SO1306,CRVS_OFFICE
+SO_CRVS_OFFICE_41,Jowhar Civil Registration Office,Location/SO1307,CRVS_OFFICE
+SO_CRVS_OFFICE_42,Afmadow Civil Registration Office,Location/SO1401,CRVS_OFFICE
+SO_CRVS_OFFICE_43,Baardheere Civil Registration Office,Location/SO1402,CRVS_OFFICE
+SO_CRVS_OFFICE_44,Badhaadhe Civil Registration Office,Location/SO1403,CRVS_OFFICE
+SO_CRVS_OFFICE_45,Belet Xaawo Civil Registration Office,Location/SO1404,CRVS_OFFICE
+SO_CRVS_OFFICE_46,Bu'aale Civil Registration Office,Location/SO1405,CRVS_OFFICE
+SO_CRVS_OFFICE_47,Ceel Waaq Civil Registration Office,Location/SO1406,CRVS_OFFICE
+SO_CRVS_OFFICE_48,Doolow Civil Registration Office,Location/SO1407,CRVS_OFFICE
+SO_CRVS_OFFICE_49,Garbahaarey Civil Registration Office,Location/SO1408,CRVS_OFFICE
+SO_CRVS_OFFICE_50,Jamaame Civil Registration Office,Location/SO1409,CRVS_OFFICE
+SO_CRVS_OFFICE_51,Jilib Civil Registration Office,Location/SO1410,CRVS_OFFICE
+SO_CRVS_OFFICE_52,Kismaayo Civil Registration Office,Location/SO1411,CRVS_OFFICE
+SO_CRVS_OFFICE_53,Luuq Civil Registration Office,Location/SO1412,CRVS_OFFICE
+SO_CRVS_OFFICE_54,Saakow Civil Registration Office,Location/SO1413,CRVS_OFFICE
+SO_CRVS_OFFICE_55,Bandarbeyla Civil Registration Office,Location/SO1501,CRVS_OFFICE
+SO_CRVS_OFFICE_56,Bossaso Civil Registration Office,Location/SO1502,CRVS_OFFICE
+SO_CRVS_OFFICE_57,Burtinle Civil Registration Office,Location/SO1503,CRVS_OFFICE
+SO_CRVS_OFFICE_58,Caluula Civil Registration Office,Location/SO1504,CRVS_OFFICE
+SO_CRVS_OFFICE_59,Eyl Civil Registration Office,Location/SO1505,CRVS_OFFICE
+SO_CRVS_OFFICE_60,Gaalkacyo PL Civil Registration Office,Location/SO1506,CRVS_OFFICE
+SO_CRVS_OFFICE_61,Galdogob Civil Registration Office,Location/SO1507,CRVS_OFFICE
+SO_CRVS_OFFICE_62,Garoowe Civil Registration Office,Location/SO1508,CRVS_OFFICE
+SO_CRVS_OFFICE_63,Iskushuban Civil Registration Office,Location/SO1509,CRVS_OFFICE
+SO_CRVS_OFFICE_64,Jariiban Civil Registration Office,Location/SO1510,CRVS_OFFICE
+SO_CRVS_OFFICE_65,Qandala Civil Registration Office,Location/SO1511,CRVS_OFFICE
+SO_CRVS_OFFICE_66,Qardho Civil Registration Office,Location/SO1512,CRVS_OFFICE
+SO_CRVS_OFFICE_67,Xudun Civil Registration Office,Location/SO1601,CRVS_OFFICE
+SO_CRVS_OFFICE_68,Borama Civil Registration Office,Location/SO1602,CRVS_OFFICE
+SO_CRVS_OFFICE_69,Baki Civil Registration Office,Location/SO1603,CRVS_OFFICE
+SO_CRVS_OFFICE_70,Lughaye Civil Registration Office,Location/SO1604,CRVS_OFFICE
+SO_CRVS_OFFICE_71,Zeylac Civil Registration Office,Location/SO1605,CRVS_OFFICE
+SO_CRVS_OFFICE_72,Hargeysa Civil Registration Office,Location/SO1606,CRVS_OFFICE
+SO_CRVS_OFFICE_73,Berbera Civil Registration Office,Location/SO1607,CRVS_OFFICE
+SO_CRVS_OFFICE_74,Gebiley Civil Registration Office,Location/SO1608,CRVS_OFFICE
+SO_CRVS_OFFICE_75,Burco Civil Registration Office,Location/SO1609,CRVS_OFFICE
+SO_CRVS_OFFICE_76,Buuhoodle Civil Registration Office,Location/SO1610,CRVS_OFFICE
+SO_CRVS_OFFICE_77,Owdweyne Civil Registration Office,Location/SO1611,CRVS_OFFICE
+SO_CRVS_OFFICE_78,Sheikh Civil Registration Office,Location/SO1612,CRVS_OFFICE
+SO_CRVS_OFFICE_79,Ceerigaabo Civil Registration Office,Location/SO1613,CRVS_OFFICE
+SO_CRVS_OFFICE_80,Ceel Afweyn Civil Registration Office,Location/SO1614,CRVS_OFFICE
+SO_CRVS_OFFICE_81,Laasqoray Civil Registration Office,Location/SO1615,CRVS_OFFICE
+SO_CRVS_OFFICE_82,Caynabo Civil Registration Office,Location/SO1616,CRVS_OFFICE
+SO_CRVS_OFFICE_83,Afgooye Civil Registration Office,Location/SO1701,CRVS_OFFICE
+SO_CRVS_OFFICE_84,Baraawe Civil Registration Office,Location/SO1702,CRVS_OFFICE
+SO_CRVS_OFFICE_85,Baydhaba Civil Registration Office,Location/SO1703,CRVS_OFFICE
+SO_CRVS_OFFICE_86,Buur Hakaba Civil Registration Office,Location/SO1704,CRVS_OFFICE
+SO_CRVS_OFFICE_87,Ceel Barde Civil Registration Office,Location/SO1705,CRVS_OFFICE
+SO_CRVS_OFFICE_88,Diinsoor Civil Registration Office,Location/SO1706,CRVS_OFFICE
+SO_CRVS_OFFICE_89,Kurtunwaarey Civil Registration Office,Location/SO1707,CRVS_OFFICE
+SO_CRVS_OFFICE_90,Marka Civil Registration Office,Location/SO1708,CRVS_OFFICE
+SO_CRVS_OFFICE_91,Qansax Dheere Civil Registration Office,Location/SO1709,CRVS_OFFICE
+SO_CRVS_OFFICE_92,Qoryooley Civil Registration Office,Location/SO1710,CRVS_OFFICE
+SO_CRVS_OFFICE_93,Rab Dhuure Civil Registration Office,Location/SO1711,CRVS_OFFICE
+SO_CRVS_OFFICE_94,Sablaale Civil Registration Office,Location/SO1712,CRVS_OFFICE
+SO_CRVS_OFFICE_95,Tayeeglow Civil Registration Office,Location/SO1713,CRVS_OFFICE
+SO_CRVS_OFFICE_96,Waajid Civil Registration Office,Location/SO1714,CRVS_OFFICE
+SO_CRVS_OFFICE_97,Wanla Weyn Civil Registration Office,Location/SO1715,CRVS_OFFICE
+SO_CRVS_OFFICE_98,Xudur Civil Registration Office,Location/SO1716,CRVS_OFFICE
+SO_CRVS_OFFICE_99,Taleex Civil Registration Office,Location/SO1801,CRVS_OFFICE
+SO_CRVS_OFFICE_100,Laas Caanood Civil Registration Office,Location/SO1802,CRVS_OFFICE

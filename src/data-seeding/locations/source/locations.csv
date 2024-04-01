@@ -1,17 +1,108 @@
-admin2Name_en,admin2Name_alias,admin2Pcode,admin1Name_en,admin1Name_alias,admin1Pcode,admin0Name_en,admin0Name_alias,admin0Pcode
-Ibombo,Ibombo,oEBf29y8JP8,Central,Central,AWn3s2RqgAN,Farajaland,Farajaland,FAR
-Ilanga,Ilanga,HPGiE9Jjh2r,Sulaka,Sulaka,KozcEjeTyuD,Farajaland,Farajaland,FAR
-Embe,Embe,BxrIbNW7f3K,Pualula,Pualula,B1u1bVtIA92,Farajaland,Farajaland,FAR
-Ama,Ama,SQT8xjbvWwf,Chuminga,Chuminga,dbTLdTi7s8F,Farajaland,Farajaland,FAR
-Isamba,Isamba,ntoX1PkiWri,Central,Central,AWn3s2RqgAN,Farajaland,Farajaland,FAR
-Irundu,Irundu,SvFNQpplnch,Sulaka,Sulaka,KozcEjeTyuD,Farajaland,Farajaland,FAR
-Ienge,Ienge,NLjvK1QsrN3,Pualula,Pualula,B1u1bVtIA92,Farajaland,Farajaland,FAR
-Nsali,Nsali,hywxVKv48Xp,Chuminga,Chuminga,dbTLdTi7s8F,Farajaland,Farajaland,FAR
-Itambo,Itambo,QTtxiWj8ONP,Central,Central,AWn3s2RqgAN,Farajaland,Farajaland,FAR
-Zobwe,Zobwe,Oapn6R4rt3D,Sulaka,Sulaka,KozcEjeTyuD,Farajaland,Farajaland,FAR
-Funabuli,Funabuli,idR0pJWLqcR,Pualula,Pualula,B1u1bVtIA92,Farajaland,Farajaland,FAR
-Soka,Soka,jCJxK8sFH40,Chuminga,Chuminga,dbTLdTi7s8F,Farajaland,Farajaland,FAR
-Ezhi,Ezhi,ydyJb1RAy4U,Central,Central,AWn3s2RqgAN,Farajaland,Farajaland,FAR
-Afue,Afue,nO68NTtcdw2,Sulaka,Sulaka,KozcEjeTyuD,Farajaland,Farajaland,FAR
-Pili,Pili,FuvOOwvBw0p,Pualula,Pualula,B1u1bVtIA92,Farajaland,Farajaland,FAR
-Chibiya,Chibiya,R22tRIhdm5Y,Chuminga,Chuminga,dbTLdTi7s8F,Farajaland,Farajaland,FAR
+admin0Pcode,admin0Name_en,admin1Pcode,admin1Name_en,admin2Pcode,admin2Name_en
+SO,Somalia,SO11,Banaadir Regional Administration,SO1101,Cabdulcasis
+SO,Somalia,SO11,Banaadir Regional Administration,SO1102,Boondheere
+SO,Somalia,SO11,Banaadir Regional Administration,SO1103,Dayniile
+SO,Somalia,SO11,Banaadir Regional Administration,SO1104,Dharkeenley
+SO,Somalia,SO11,Banaadir Regional Administration,SO1105,Heliwaa
+SO,Somalia,SO11,Banaadir Regional Administration,SO1106,Hodan
+SO,Somalia,SO11,Banaadir Regional Administration,SO1107,Howlwadaag
+SO,Somalia,SO11,Banaadir Regional Administration,SO1108,Kaaraan
+SO,Somalia,SO11,Banaadir Regional Administration,SO1109,Shibis
+SO,Somalia,SO11,Banaadir Regional Administration,SO1110,Shingaani
+SO,Somalia,SO11,Banaadir Regional Administration,SO1111,Waaberi
+SO,Somalia,SO11,Banaadir Regional Administration,SO1112,Wadajir
+SO,Somalia,SO11,Banaadir Regional Administration,SO1113,Wardhiigley
+SO,Somalia,SO11,Banaadir Regional Administration,SO1114,Xamar Jab-Jab
+SO,Somalia,SO11,Banaadir Regional Administration,SO1115,Xamar Weyne
+SO,Somalia,SO11,Banaadir Regional Administration,SO1116,Yaaqshiid
+SO,Somalia,SO12,Galmudug,SO1201,Caabudwaaq
+SO,Somalia,SO12,Galmudug,SO1202,Cadaado
+SO,Somalia,SO12,Galmudug,SO1203,Ceelbuur
+SO,Somalia,SO12,Galmudug,SO1204,Ceeldheer
+SO,Somalia,SO12,Galmudug,SO1205,Dhuusamareeb
+SO,Somalia,SO12,Galmudug,SO1206,Gaalkacyo
+SO,Somalia,SO12,Galmudug,SO1207,Hobyo
+SO,Somalia,SO12,Galmudug,SO1208,Xarardheere
+SO,Somalia,SO12,Galmudug,SO1209,Balanbale
+SO,Somalia,SO12,Galmudug,SO1210,Galcad
+SO,Somalia,SO12,Galmudug,SO1211,Galhareeri
+SO,Somalia,SO12,Galmudug,SO1212,Galdogob
+SO,Somalia,SO12,Galmudug,SO1213,Jariiban
+SO,Somalia,SO13,Hirshabeelle,SO1301,Aadan Yabaal
+SO,Somalia,SO13,Hirshabeelle,SO1302,Balcad
+SO,Somalia,SO13,Hirshabeelle,SO1303,Beledweyn
+SO,Somalia,SO13,Hirshabeelle,SO1304,Buulo Burte
+SO,Somalia,SO13,Hirshabeelle,SO1305,Cadale
+SO,Somalia,SO13,Hirshabeelle,SO1306,Jalalaqsi
+SO,Somalia,SO13,Hirshabeelle,SO1307,Jowhar
+SO,Somalia,SO13,Hirshabeelle,SO1308,Warsheekh
+SO,Somalia,SO13,Hirshabeelle,SO1309,Mahadaay
+SO,Somalia,SO13,Hirshabeelle,SO1310,Matabaan
+SO,Somalia,SO13,Hirshabeelle,SO1311,Maxaas
+SO,Somalia,SO13,Hirshabeelle,SO1312,Ruun-nirgood
+SO,Somalia,SO14,Jubaland,SO1401,Afmadow
+SO,Somalia,SO14,Jubaland,SO1402,Baardheere
+SO,Somalia,SO14,Jubaland,SO1403,Badhaadhe
+SO,Somalia,SO14,Jubaland,SO1404,Buulo Xaawo
+SO,Somalia,SO14,Jubaland,SO1405,Bu’aale
+SO,Somalia,SO14,Jubaland,SO1406,Ceelwaaq
+SO,Somalia,SO14,Jubaland,SO1407,Doolow
+SO,Somalia,SO14,Jubaland,SO1408,Garbahaareey
+SO,Somalia,SO14,Jubaland,SO1409,Jamaame
+SO,Somalia,SO14,Jubaland,SO1410,Jilib
+SO,Somalia,SO14,Jubaland,SO1411,Kismaayo
+SO,Somalia,SO14,Jubaland,SO1412,Luuq
+SO,Somalia,SO14,Jubaland,SO1413,Saakow
+SO,Somalia,SO14,Jubaland,SO1414,Dhoobley
+SO,Somalia,SO14,Jubaland,SO1415,Xagar
+SO,Somalia,SO15,Puntland,SO1501,Bandarbeyla
+SO,Somalia,SO15,Puntland,SO1502,Boosaaso
+SO,Somalia,SO15,Puntland,SO1503,Burtinle
+SO,Somalia,SO15,Puntland,SO1504,Caluula
+SO,Somalia,SO15,Puntland,SO1505,Eyl
+SO,Somalia,SO15,Puntland,SO1506,Gaalkacyo
+SO,Somalia,SO15,Puntland,SO1507,Galdogob
+SO,Somalia,SO15,Puntland,SO1508,Garoowe
+SO,Somalia,SO15,Puntland,SO1509,Iskushuban
+SO,Somalia,SO15,Puntland,SO1510,Jariiban
+SO,Somalia,SO15,Puntland,SO1511,Qandala
+SO,Somalia,SO15,Puntland,SO1512,Qardho
+SO,Somalia,SO15,Puntland,SO1513,Badhan
+SO,Somalia,SO15,Puntland,SO1514,Dahar
+SO,Somalia,SO15,Puntland,SO1515,Dangoronyo
+SO,Somalia,SO16,Somaliland,SO1601,Xudun
+SO,Somalia,SO16,Somaliland,SO1602,Boorame
+SO,Somalia,SO16,Somaliland,SO1603,Baki
+SO,Somalia,SO16,Somaliland,SO1604,Lughaye
+SO,Somalia,SO16,Somaliland,SO1605,Zaylac
+SO,Somalia,SO16,Somaliland,SO1606,Hargeysa
+SO,Somalia,SO16,Somaliland,SO1607,Berbera
+SO,Somalia,SO16,Somaliland,SO1608,Gebiley
+SO,Somalia,SO16,Somaliland,SO1609,Burco
+SO,Somalia,SO16,Somaliland,SO1611,Oodweyne
+SO,Somalia,SO16,Somaliland,SO1612,Sheekh
+SO,Somalia,SO16,Somaliland,SO1613,Ceerigaabo
+SO,Somalia,SO16,Somaliland,SO1614,Ceel-Afweyn
+SO,Somalia,SO16,Somaliland,SO1615,Laasqoray
+SO,Somalia,SO16,Somaliland,SO1616,Caynabo
+SO,Somalia,SO17,Koonfur-Galbeed,SO1701,Afgooye
+SO,Somalia,SO17,Koonfur-Galbeed,SO1702,Baraawe
+SO,Somalia,SO17,Koonfur-Galbeed,SO1703,Baydhabo
+SO,Somalia,SO17,Koonfur-Galbeed,SO1704,Buur-Hakaba
+SO,Somalia,SO17,Koonfur-Galbeed,SO1705,Ceelbarde
+SO,Somalia,SO17,Koonfur-Galbeed,SO1706,Diinsoor
+SO,Somalia,SO17,Koonfur-Galbeed,SO1707,Kurtunwaarrey
+SO,Somalia,SO17,Koonfur-Galbeed,SO1708,Marka
+SO,Somalia,SO17,Koonfur-Galbeed,SO1709,Qansaxdheere
+SO,Somalia,SO17,Koonfur-Galbeed,SO1710,Qoryooley
+SO,Somalia,SO17,Koonfur-Galbeed,SO1711,Yeed
+SO,Somalia,SO17,Koonfur-Galbeed,SO1712,Sablaale
+SO,Somalia,SO17,Koonfur-Galbeed,SO1713,Tayeeglow
+SO,Somalia,SO17,Koonfur-Galbeed,SO1714,Waajid
+SO,Somalia,SO17,Koonfur-Galbeed,SO1715,Wanla Weyn
+SO,Somalia,SO17,Koonfur-Galbeed,SO1716,Xudur
+SO,Somalia,SO17,Koonfur-Galbeed,SO1717,Awdheegle
+SO,Somalia,SO17,Koonfur-Galbeed,SO1718,Berdaale
+SO,Somalia,SO18,SSC-Khaatumo Administration,SO1801,Taleex
+SO,Somalia,SO18,SSC-Khaatumo Administration,SO1802,Laascaanood
+SO,Somalia,SO18,SSC-Khaatumo Administration,SO1803,Buuhoodle
